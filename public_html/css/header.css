@@ -1,0 +1,41 @@
+
+#header {
+    //background-color: #efefef;
+    width: 100%;
+    
+}
+
+#header .fixbar:after{
+    display: block;
+    clear: both;
+    display: block;
+}
+
+
+
+#header .fixbar ul{
+    list-style-type: none;    
+}
+
+#header .fixbar ul li{
+    float:left;
+    margin-left: 40px;
+    font-family: sans-serif;
+    font-style:  italic;
+    font-size: 14px;
+}
+
+#header .fixbar {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    top:400px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+
+}
+
+#header.fixed .fixbar {
+    position: fixed;
+    top :0px;
+}

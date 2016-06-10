@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>D'velt</title>
+        <meta charset="UTF-8">
+        <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+        <link rel="stylesheet" type="text/css" href="css/header.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/mapstyle.css">
+        <script type="text/javascript" src="js/libs/jquery/jquery.js"></script>
+        <script type="text/javascript" src="js/libs/jquery.bxslider/jquery.bxslider.min.js"></script>
+        <script type="text/javascript" src="js/header.js"></script>
+        <script type="text/javascript" src="js/mapstyle.js"></script>
+        <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+               
+    </head>
+    <body onload="initialize();">
+        
+        <div id="img_main"></div>
+
+        <header id="header" >
+            <div class="fixbar">
+                <ul>
+                    <li><a href="#img_main"><img src="img/logo.png" height="20"></a></li>
+                    <li>/</li>
+                    <li><a href="#stylist">Stylist</a></li>
+                    <li>/</li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li>/</li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li>/</li>
+                    <li><a href="#saloninfo">SalonInfo</a></li>
+                </ul>
+            </div>
+        </header>
+        <section>
+        <div id="list_carousel">
+            <ul id="slide" class="clearfix">
+                <li><img src="img/slide001.jpg" /></li>
+                <li><img src="img/slide002.jpg" /></li>
+                <li><img src="img/slide003.jpg" /></li>
+                <li><img src="img/slide004.jpg" /></li>
+                <li><img src="img/slide005.jpg" /></li>
+                <li><img src="img/slide006.jpg" /></li>
+                <li><img src="img/slide007.jpg" /></li>
+                <li><img src="img/slide008.jpg" /></li>
+                <li><img src="img/slide009.jpg" /></li>
+            </ul>
+        </div>
+        </section>
+        <div class="wrapper">
+            <section>
+                <div id="stylist" class ="content">
+                    stylist２
+                </div>
+            </section>
+            <section>
+                <div id="menu" class="content">
+                    menu
+                </div>
+            </section>
+            <section>
+                <div id="gallery" class="content">
+                    gallery
+                </div>
+            </section>
+            <section>
+                <div id="saloninfo">
+                    <div class="content_title">SalonInfo</div>
+                    <div class="read">
+                        <p class="sentence">ADDRESS. 〒541-0059 大阪市中央区博労町4-6-17 第三丸米ビル413号室<br>
+                            TEL. 06-6210-5274<br>
+                            FAX. 06-6210-5284<br>
+                            営業時間 11:00 〜 Last Guest<br>
+                            その他時間外の営業は要相談
+                        </p>
+                    </div>
+                    <p class="reserve">ご予約・お問い合わせは <span>090-7758-5139</span> まで</p>
+                </div>
+                <div id="map_canvas"></div>
+            </section>
+        </div>
+        <footer>
+            <div id="footer">
+                <p class="logo"><a href="#img_main"><img src="img/logo.png" height="40"></a></p>
+                <p class="copyright">Copyrights&copy; D'velt. All Rights Reserved.</p>
+            </div>
+        </footer>
+        
+    </body>
+</html>

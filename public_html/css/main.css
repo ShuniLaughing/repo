@@ -1,0 +1,98 @@
+
+a {
+    text-decoration: none;
+}
+
+#img_main{
+    background: #f6ff6f;
+    padding: 400px 0px 10px 0;
+}
+
+.clearfix {
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    //visibility: hidden;
+}
+
+.clearfix:after{
+    display: inline-block;
+}
+
+#list_carousel ul{
+    list-style-type: none;
+}
+
+#list_carousel li{
+    width: 245px;
+    height: 172pt;
+    float: left;
+}
+
+#list_carousel li :after{
+    clear: both;
+}
+
+#slide{
+    
+}
+
+
+
+
+
+.wrapper {
+  //margin: 0 auto;
+  //width: 100%;
+}
+.content {
+  background-color: aliceblue;
+  margin: 30px 0;
+  padding: 250px 60px;
+}
+
+#saloninfo{
+  //background-color: aliceblue;
+  padding: 80px 60px;
+  margin: 0 auto;
+}
+
+#saloninfo .reserve{
+    display:inline-block;
+    margin-top:30px;
+    color:#fff;
+    background-color:#28a7e1;
+    padding:8px 0 5px;
+    width:555px;
+    font-size: 15px;
+    text-align: center;
+}
+
+#saloninfo .reserve span{
+    font-size:18px;
+}
+
+
+
+// 文字関連
+.content_title{
+    font-size: 15pt;
+    font-family: sans-serif;
+    font-style: italic;
+    
+}
+
+.read {
+    margin: 0 auto;
+}
+
+.sentence {
+    font-size: 9pt;
+}
+
+#footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 10px;
+}
